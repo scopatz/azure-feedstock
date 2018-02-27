@@ -7,7 +7,7 @@ package:
 source:
   fn: azure-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure/azure-{{ version }}.zip
-  md5: 0ef1699615c6a4b00a16fdff3cb0569f
+  md5: 4380c1ef6ad34f9ecf41a84b8f24f56804825cff7ce43c4fded0fb75ff90b396
   
 
 build:
