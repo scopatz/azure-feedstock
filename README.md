@@ -14,14 +14,15 @@ Summary: Microsoft Azure Client Libraries for Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/azure-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/azure-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure/badges/version.svg)](https://anaconda.org/conda-forge/azure)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure/badges/downloads.svg)](https://anaconda.org/conda-forge/azure)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-azure-green.svg)](https://anaconda.org/conda-forge/azure) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/azure.svg)](https://anaconda.org/conda-forge/azure) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/azure.svg)](https://anaconda.org/conda-forge/azure) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/azure.svg)](https://anaconda.org/conda-forge/azure) |
 
 Installing azure
 ================
