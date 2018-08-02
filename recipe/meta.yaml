@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: azure
@@ -7,13 +7,13 @@ package:
 source:
   fn: azure-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure/azure-{{ version }}.zip
-  md5: 2b3a0171295d9acdb1a0061df15397ee
+  md5: 6e614825d35adb90bfd8c878cbae833c
   
 
 build:
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
-  number: 1
+  number: 0
 
 requirements:
   host:
