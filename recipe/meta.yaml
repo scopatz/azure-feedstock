@@ -8,7 +8,7 @@ source:
   fn: azure-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure/azure-{{ version }}.zip
   md5: 6e614825d35adb90bfd8c878cbae833c
-  
+
 
 build:
   noarch: python
@@ -37,10 +37,12 @@ test:
     - azure
   commands:
     - python -m unittest discover -p "test_*.py"
-    
+
 about:
   home: https://github.com/Azure/azure-sdk-for-python
-  license: Apache-2.0
+  license: MIT
+  license_file: LICENSE.txt
+  license_family: MIT
   summary: 'Microsoft Azure Client Libraries for Python'
 
 extra:
